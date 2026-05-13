@@ -1,41 +1,65 @@
 ```
-# Dependencies
-node_modules/
-
-# Build artifacts
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
 dist/
 build/
-.whatever/
+target/
 
-# Environment variables
+# Dependencies
+.venv/
+venv/
+node_modules/
+.mypy_cache/
+.pytest_cache/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# IDE files
+# Editors
 .vscode/
 .idea/
 
-# Logs
-*.log
-
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Vite specific
-.frontend/node_modules/
-.frontend/dist/
-.vite/
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-# Backend specific
-.backend/node_modules/
-.backend/dist/
-.backend/build/
-
-# Project specific
-whatsapp-crm/frontend/node_modules/
-whatsapp-crm/frontend/dist/
-whatsapp-crm/backend/node_modules/
-whatsapp-crm/backend/dist/
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
