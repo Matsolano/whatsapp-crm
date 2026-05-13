@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-crm",
+  "version": "1.0.0",
+  "description": "Personal WhatsApp CRM Web Application",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "start": "npm run install:all && echo \"\\n=== Installation Complete ===\" && echo \"To start the application:\" && echo \"1. Terminal 1: cd backend && npm start\" && echo \"2. Terminal 2: cd frontend && npm run dev\" && echo \"\\nThen open http://localhost:3000 in your browser\""
+  },
+  "keywords": ["whatsapp", "crm", "baileys"],
+  "author": "",
+  "license": "MIT"
+}
