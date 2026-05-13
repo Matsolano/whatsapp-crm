@@ -1,0 +1,5 @@
+node_modules/
+*.log
+crm.db
+auth_info/
+.DS_Store

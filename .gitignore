@@ -1,0 +1,41 @@
+```
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+.whatever/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Vite specific
+.frontend/node_modules/
+.frontend/dist/
+.vite/
+
+# Backend specific
+.backend/node_modules/
+.backend/dist/
+.backend/build/
+
+# Project specific
+whatsapp-crm/frontend/node_modules/
+whatsapp-crm/frontend/dist/
+whatsapp-crm/backend/node_modules/
+whatsapp-crm/backend/dist/
+```
